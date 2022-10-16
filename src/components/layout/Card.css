@@ -1,18 +1,23 @@
 .Card {
-    background-color: red;
-    border: 3px solid red;
     border-radius: 5px;
     overflow: hidden;
     margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
 }
 
 .Card .Content {
     background-color: white;
     color: black;
     padding: 20px;
+    flex-grow: 1;
 }
 
 .Card .Title {
-    padding: 10px 0px;
-    text-align: center;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
 }
