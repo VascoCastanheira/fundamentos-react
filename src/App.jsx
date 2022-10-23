@@ -5,8 +5,11 @@ import Card from "./components/layout/Card";
 import './App.css'
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
-import StudentList from "./components/basics/StudentList";
-import ProductsTable from "./components/basics/ProductsTable";
+import StudentList from "./components/repetition/StudentList";
+import ProductsTable from "./components/repetition/ProductsTable";
+import EvenOrOdd from "./components/condition/EvenOrOdd";
+import UserInfo from "./components/condition/UserInfo";
+import EuroMillions from "./components/millions/EuroMillions";
 
 export default function App () {
     return (
@@ -33,6 +36,17 @@ export default function App () {
             </Card>
             <Card Title='Repetition Challenge' color ='#155263'>
                 <ProductsTable/>
+            </Card>
+            <Card Title='Odd or Even' color ='#f67e7d'>
+                <EvenOrOdd number='8'/>
+            </Card>
+            <Card Title='User Info' color ='#843b62'>
+                <UserInfo user={{ name: 'MushroomBlade' }}/>
+                <UserInfo user={{ email: 'mushroomblade@gmail.com'}}/>
+                <UserInfo user =''/>
+            </Card>
+            <Card Title='Lottery Challenge' color ='#196F3D'>
+                <EuroMillions/>
             </Card>
             </div>
         </div>
