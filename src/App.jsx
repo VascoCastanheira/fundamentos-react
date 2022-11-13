@@ -46,7 +46,7 @@ export default function App () {
                 <UserInfo user =''/>
             </Card>
             <Card Title='Lottery Challenge' color ='#196F3D'>
-                <EuroMillions/>
+                <EuroMillions amount="8"/>
             </Card>
             </div>
         </div>

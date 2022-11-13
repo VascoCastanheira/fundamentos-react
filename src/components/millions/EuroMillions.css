@@ -1,8 +1,9 @@
-.EuroMillions {
-    flex-direction: column;
+.EuroMillions label {
+    margin-right: 10px;
     width: 100%;
 }
 
-.EuroMillions h1 {
-    font-size: 100%;
+.EuroMillions input {
+    font-size: 1.4rem;
+    width: 50px;
 }
